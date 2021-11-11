@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: cicirello
 
 # Controls when the workflow will run
 on:
@@ -27,6 +27,3 @@ jobs:
 
       - name: generate-sitemap
         uses: cicirello/generate-sitemap@v1.8.1
-
-          echo Add other actions to build,
-          echo test, and deploy your project.
